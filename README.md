@@ -1,28 +1,57 @@
-# Hi! I'm Gabriel
+```python
+#!/usr/bin/env python3
+# developer_profile.py
 
-## About me
+import fastapi
+import docker
+import pytest
 
-I am a backend developer focused on Python, using FastAPI as my main framework.
+from typing import Dict, List
 
-## Skills
 
-<div>
-  <img src="https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-008080?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-316192?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-</div>
+class BackendDeveloper:
 
-## Contact
+    def __init__(self) -> None:
+        self.name: str = "Simu"
+        self.role: str = "Backend Developer"
 
-<div>
-  <a href="mailto:dev.lopes@pm.me">
-    <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white">
-  </a>
-</div>
+        self.stack: Dict[str, List[str]] = {
+            "language": ["Python"],
+            "framework": ["FastAPI"],
+            "databases": ["PostgreSQL", "MySQL", "SQLite"],
+            "tools": ["Docker", "Git", "Linux", "Pytest"]
+        }
+
+        self.currently_learning: List[str] = [
+            "System Design",
+            "Scalable APIs",
+            "Docker best practices"
+        ]
+
+        self.contact: Dict[str, str] = {
+            "email": "dev.lopes@pm.me"
+        }
+
+    def introduce(self) -> None:
+        print(f"Hi, I'm {self.name} 👋")
+        print(f"Role: {self.role}\n")
+
+        print("Tech Stack:")
+        for category, items in self.stack.items():
+            print(f"- {category}: {', '.join(items)}")
+
+        print("\nCurrently learning:")
+        for topic in self.currently_learning:
+            print(f"- {topic}")
+        print(f"\nContact: {self.contact['email']}")
+
+
+def main() -> None:
+    me = BackendDeveloper()
+    me.introduce()
+
+
+if __name__ == "__main__":
+    main()
+
+```
