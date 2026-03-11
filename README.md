@@ -2,7 +2,7 @@
 
 I'm a backend developer focused on building REST APIs using Python frameworks.
 
-## 👨‍💻 Programmming Languages
+## 👨‍💻 Languages
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)](#)
