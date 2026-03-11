@@ -1,57 +1,53 @@
-```python
-#!/usr/bin/env python3
-# developer_profile.py
+# Hi! Peace and good. I'm Gabriel
 
-import fastapi
-import docker
-import pytest
+## About me
 
-from typing import Dict, List
+I'm a backend developer focused on building REST APIs using Python frameworks.
 
+## Skills
 
-class BackendDeveloper:
+<table>
+<tr>
 
-    def __init__(self) -> None:
-        self.name: str = "Simu"
-        self.role: str = "Backend Developer"
+<td align="center" valign="top">
 
-        self.stack: Dict[str, List[str]] = {
-            "language": ["Python"],
-            "framework": ["FastAPI"],
-            "databases": ["PostgreSQL", "MySQL", "SQLite"],
-            "tools": ["Docker", "Git", "Linux", "Pytest"]
-        }
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"><br>
 
-        self.currently_learning: List[str] = [
-            "System Design",
-            "Scalable APIs",
-            "Docker best practices"
-        ]
+</td>
 
-        self.contact: Dict[str, str] = {
-            "email": "dev.lopes@pm.me"
-        }
+<td align="center" valign="top">
 
-    def introduce(self) -> None:
-        print(f"Hi, I'm {self.name} 👋")
-        print(f"Role: {self.role}\n")
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"><br>
 
-        print("Tech Stack:")
-        for category, items in self.stack.items():
-            print(f"- {category}: {', '.join(items)}")
+</td>
 
-        print("\nCurrently learning:")
-        for topic in self.currently_learning:
-            print(f"- {topic}")
-        print(f"\nContact: {self.contact['email']}")
+<td align="center" valign="top">
 
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"><br>
 
-def main() -> None:
-    me = BackendDeveloper()
-    me.introduce()
+</td>
 
+<td align="center" valign="top">
 
-if __name__ == "__main__":
-    main()
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"><br>
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"><br>
 
-```
+</td>
+
+</tr>
+</table>
+
+## Contact
+
+<div>
+  <a href="mailto:dev.lopes@pm.me">
+    <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white">
+  </a>
+</div>
