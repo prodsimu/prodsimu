@@ -1,10 +1,8 @@
 # Hi! Peace and good. I'm Gabriel
 
-## About me
-
 I'm a backend developer focused on building REST APIs using Python frameworks.
 
-## Skills
+## Technologies and Skills
 
 <table>
 <tr>
