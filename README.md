@@ -7,11 +7,9 @@ I'm a backend developer focused on building REST APIs using Python frameworks.
 <table>
 <tr>
 
-<td align="center" valign="top">
+<td align="center" valign="center">
 
 <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><br>
-<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"><br>
-<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"><br>
 
 </td>
 
