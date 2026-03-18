@@ -29,7 +29,7 @@
 
 ### :dizzy: GitHub Stats  
 
-[![prodsimu](https://github-readme-stats.vercel.app/api?username=prodsimu&theme=dark&title_color=ffffff&text_color=ffffff&bg_color=0d1117&hide_border=false&hide_title=true&rank_icon=percentile&hide_rank=false&)](https://github.com/anuraghazra/github-readme-stats)
+[![prodsimu](https://github-readme-stats.vercel.app/api?username=prodsimu&theme=dark&title_color=ffffff&text_color=ffffff&bg_color=0d1117&hide_border=false&hide_title=true&rank_icon=github&hide_rank=false&)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
