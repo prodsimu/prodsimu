@@ -22,4 +22,4 @@
 
 ### :mailbox: Contact
 
-[![Proton Mail](https://img.shields.io/badge/Proton%20Mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=fff)](mailto:dev.lopes@pm.me)
+[![Proton Mail](https://img.shields.io/badge/Proton%20Mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=fff)](mailto:contato.lopes@pm.me)
