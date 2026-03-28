@@ -20,12 +20,6 @@
 
 ---
 
-### :dizzy: GitHub Stats  
-
-[![prodsimu](https://github-readme-stats.vercel.app/api?username=prodsimu&theme=dark&title_color=ffffff&text_color=ffffff&bg_color=0d1117&hide_border=false&hide_title=true&rank_icon=github&hide_rank=false&)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
 ### :mailbox: Contact
 
 [![Proton Mail](https://img.shields.io/badge/Proton%20Mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=fff)](mailto:dev.lopes@pm.me)
